@@ -5,7 +5,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 @"
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Zash
+Set-PoshPrompt Zash
 "@ | Out-File -FilePath $PROFILE 
 
 Write-Host "OK"
