@@ -1,0 +1,12 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder> 
+      <HostFolder>E:\src\machine\windows</HostFolder> 
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop\windows</SandboxFolder> 
+      <ReadOnly>false</ReadOnly> 
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>explorer.exe C:\users\WDAGUtilityAccount\Desktop\windows</Command>
+  </LogonCommand>
+</Configuration>
