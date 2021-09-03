@@ -5,7 +5,7 @@ Install-Module oh-my-posh -Scope CurrentUser -Force
 @"
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-PoshPrompt Paradox
+Set-PoshPrompt slimfat
 "@ | Out-File -FilePath $PROFILE 
 
 Write-Host "OK"
